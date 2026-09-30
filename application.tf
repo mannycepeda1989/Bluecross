@@ -23,6 +23,8 @@ resource "aws_s3_bucket" "example_bucket" {
   tags = {
     Name        = "My Terraform Bucket"
     Environment = "Dev"
+    manny       = "cepeda"
+    yor_trace   = "d94e9aca-546e-4117-8626-a89f7a6fec26"
   }
 }
 
